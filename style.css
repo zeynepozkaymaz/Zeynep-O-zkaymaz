@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 * {
   margin: 0;
@@ -8,11 +10,14 @@
 
 body {
   background: linear-gradient(to left, rgb(135, 14, 135), rgb(229, 192, 248));
+  background-size: cover;
 }
 
 header {
   background-color: rgba(255, 255, 255, 0.36);
   margin: 15px;
+  margin-left:50px ;
+  margin-right: 50px;
   padding: 10px;
   text-align: center;
   font-family: "Bungee Shade", cursive;
@@ -24,17 +29,17 @@ header {
   flex-direction: column;
 }
 
-header .h1 {
-  /* padding: 10px; */
+/* header .h1 {
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
+} */
 
 header .link ul {
   list-style-type: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   display: flex;
 }
@@ -44,7 +49,7 @@ header .link li {
   height: 40px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:space-evenly;
   color: rgb(0, 0, 0, 0.7);
 }
 
@@ -52,4 +57,22 @@ header .link li:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.265),rgba(0, 0, 0, 0.261));
   border-radius: 15px;
   cursor: pointer;
+}
+
+.container{
+  margin: 15px;
+  padding: 15px;
+}
+.parag1{
+  font-family: 'Rampart One', sans-serif;
+  font-size: 40px;
+  margin: 15px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.my_projects{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  margin-top: 35px;
 }
