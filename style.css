@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to left, rgb(135, 14, 135), rgb(229, 192, 248));
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.36);
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  font-family: "Bungee Shade", cursive;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header .h1 {
+  /* padding: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header .link ul {
+  list-style-type: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+}
+
+header .link li {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0, 0.7);
+}
+
+header .link li:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.265),rgba(0, 0, 0, 0.261));
+  border-radius: 15px;
+  cursor: pointer;
+}
